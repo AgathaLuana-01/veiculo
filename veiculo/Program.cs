@@ -24,6 +24,7 @@ namespace veiculo
                 int n;
                 var str = Console.ReadLine();
                 bool result = Int32.TryParse(str, out n);
+
                 if (!result)
                 {
                     Console.WriteLine("Erro!!\n");
